@@ -18,6 +18,10 @@
 .env.test.local
 .env.production.local
 
+[remote "origin"]
+	url = https://github.com/softBUD/react-test-app.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
